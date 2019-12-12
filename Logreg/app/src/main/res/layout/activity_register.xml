@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    >
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Email:"
+    android:inputType="textEmailSubject"
+    android:id="@+id/emailT"
+    >
+</EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="Felhasználónév:"
+        android:id="@+id/felhT"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jelszó:"
+        android:inputType="textPassword"
+        android:id="@+id/jelszoT"
+        >
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teljes név:"
+        android:id="@+id/teljesT"
+
+        >
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regisztráció"
+        android:id="@+id/regB"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vissza"
+        android:id="@+id/visszaB"
+        >
+    </Button>
+</LinearLayout>
